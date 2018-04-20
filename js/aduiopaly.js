@@ -1,8 +1,8 @@
 window.onload = function () {
-    var arr = ["../../../music/movie/dragon-ball/bgm.mp3", 
-    "../../../music/movie/dragon-ball/bgmz.mp3", 
-    "../../../music/movie/dragon-ball/bgmgt.mp3", 
-    "../../../music/movie/dragon-ball/bgmchao.mp3"];
+    var arr = ["../music/bgm.mp3", 
+    "../music/bgmz.mp3", 
+    "../music/bgmgt.mp3", 
+    "../music/bgmchao.mp3"];
     var myAudio = new Audio();
     myAudio.preload = true;
     myAudio.controls = true;    
