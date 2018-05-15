@@ -34,7 +34,7 @@ h2 {
     width: 20%;
     /* margin-right: 15px; */
     padding: 30px 30px;
-    text-align: center
+    text-align: center;
 }
 
 .nav a {
@@ -70,8 +70,8 @@ h2 {
 }
 
 .nav .navlist audio {
-    width: 159px;
-    height: 30px;
+    width: 240px;
+    height: 15px;
 }
 
 .main-content {
@@ -99,13 +99,14 @@ img {
     cursor: pointer;
 }
 
-img:hover {
-    transform: scale(1.1);
+.main-content .shenlong img:hover {
+    transform: scale(1.03);
 }
 
 .main-content .shenlong img {
     height: 385px;
     width: 700px;
+    z-index: 1;
 }
 
 .main-content .qilongzhu img {
